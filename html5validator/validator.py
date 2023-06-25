@@ -195,4 +195,5 @@ class Validator:
                 print(line)
         else:
             LOGGER.info('All good.')
-        return len(err)
+        return err
+        # return len(err)
